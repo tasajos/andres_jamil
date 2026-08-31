@@ -31,14 +31,56 @@ namespace Proyecto_Programacion.Clase02
             {
 
                 Console.WriteLine("Es una suma " + opcion);
+                Console.WriteLine("Ingrese un valor para a");
+                int a = int.Parse(Console.ReadLine());
+                Console.WriteLine("Ingrese un valor para b");
+                int b = int.Parse(Console.ReadLine());
+                Console.WriteLine("La suma es " + (a+b));
 
             } else {
-                Console.WriteLine("No es uno");
+
+                if (declaracion == 2)
+                {
+
+                    Console.WriteLine("Es una resta ");
+                    Console.WriteLine("Ingrese un valor para a");
+                    int a = int.Parse(Console.ReadLine());
+                    Console.WriteLine("Ingrese un valor para b");
+                    int b = int.Parse(Console.ReadLine());
+                    Console.WriteLine("La resta es " + (a - b));
+                }
+                else if  (declaracion == 3)
+                                              
+                        
+                          {
+                    Console.WriteLine("Es una multiplicacion ");
+                    Console.WriteLine("Ingrese un valor para a");
+                    int a = int.Parse(Console.ReadLine());
+                    Console.WriteLine("Ingrese un valor para b");
+                    int b = int.Parse(Console.ReadLine());
+                    Console.WriteLine("La multiplacion es " + (a * b));
+
+
+                }
+                else
+                {
+                    Console.WriteLine("La division es ");
+                    Console.WriteLine("Ingrese un valor para a");
+                    double a = double.Parse(Console.ReadLine());
+                    Console.WriteLine("Ingrese un valor para b");
+                    double b = double.Parse(Console.ReadLine());
+                    double resultado;
+                    resultado = a % b;
+                    Console.WriteLine("la division es " + resultado);
+
+                }
+
+                //Console.WriteLine("No es uno");
 
             }
-
         }
-
     }
 
 }
+
+ 
