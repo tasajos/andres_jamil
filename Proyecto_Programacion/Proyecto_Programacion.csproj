@@ -5,7 +5,7 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>Proyecto_Programacion.Clase01.Constantes_variables</StartupObject>
+    <StartupObject>Proyecto_Programacion.Clase02.Constantes_toma_decision</StartupObject>
   </PropertyGroup>
 
 </Project>
